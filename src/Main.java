@@ -5,7 +5,7 @@ public class Main {
 
         String article = "The time is always right to do what is right.";
 
-        String[] words = article.split("\\s+");
+        String[] words = article.split(" ");
 
         HashMap<String, Integer> wordCounts = new HashMap<>();
 
@@ -31,7 +31,7 @@ public class Main {
         }
 
 
-        System.out.println("Metinde en çok geçen kelime: " + mostFrequentWord);
+        System.out.println("Most Repeated Words: " + mostFrequentWord);
 
 
 
